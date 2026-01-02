@@ -1,0 +1,10 @@
+startup_name = input ("Enter the name of a startup: ")
+problem = input ("Enter a problem the startup is solving: ")
+audience = input ("Enter the target audience: ")
+adjective = input ("Enter an adjective to describe the experience: ")
+number = input ("Enter a number: ")
+
+print (startup_name + " is solving " + problem + ".")
+print ("Built for " + audience + ", it delivers a " + adjective + " experience.")
+print ("Early users report " + number + "% improvement.")
+print ("Investors are pretending to understand it.")
